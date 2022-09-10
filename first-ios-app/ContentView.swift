@@ -9,13 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("I am learning SwiftUI ❤️❤️❤️❤️❤️ als;kfjasdf sa;lkfjsdaf")
+        .padding();
+      
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+      Group {
         ContentView()
+          .previewDevice("iPhone 12 Pro Max")
+          .previewInterfaceOrientation(.portrait)
+      }
     }
 }
