@@ -8,19 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("I am learning SwiftUI ❤️❤️❤️❤️❤️ als;kfjasdf sa;lkfjsdaf")
-        .padding();
-      
-    }
+  var body: some View {
+    Text("I am learning SwiftUI ❤️❤️❤️❤️❤️")
+      .padding()
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-      Group {
-        ContentView()
-          .previewDevice("iPhone 12 Pro Max")
-          .previewInterfaceOrientation(.portrait)
-      }
+  static var previews: some View {
+    Group {
+      ContentView()
+        .previewDevice("iPhone 12 Pro Max")
+        .previewInterfaceOrientation(.portrait)
     }
+  }
 }
