@@ -10,7 +10,11 @@ import SwiftUI
 struct ContentView: View {
   var body: some View {
     Text("I am learning SwiftUI ❤️❤️❤️❤️❤️")
-      .padding()
+      .font(.title2)
+      .foregroundColor(.gray)
+      .multilineTextAlignment(.center)
+      .lineLimit(7)
+      .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
   }
 }
 
