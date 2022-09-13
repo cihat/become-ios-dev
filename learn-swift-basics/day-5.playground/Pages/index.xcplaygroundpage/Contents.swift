@@ -52,9 +52,9 @@ greet("Veli", nicely: true)
 
 
 func square(numbers: Int...) {
-    for number in numbers {
-        print("\(number) squared is \(number * number)")
-    }
+  for number in numbers {
+    print("\(number) squared is \(number * number)")
+  }
 }
 
 
@@ -70,7 +70,7 @@ square2(1, 2, 3, 4, 5, 6, 6, 6, 3)
 
 
 enum PasswordError: Error {
-    case obvious
+  case obvious
 }
 
 func checkPassword(_ password: String) throws -> Bool {
@@ -182,12 +182,12 @@ travel2()("Ankara", 100)
 
 
 func travel3() -> (String) -> Void {
-    var counter = 1
-
-    return {
-        print("\(counter). I'm going to \($0)")
-        counter += 1
-    }
+  var counter = 1
+  
+  return {
+    print("\(counter). I'm going to \($0)")
+    counter += 1
+  }
 }
 
 
@@ -259,11 +259,11 @@ struct City {
 let istanbul = City(population: 9_000_000_000)
 
 struct Person {
-    var name: String
-
-    mutating func makeAnonymous() {
-      name = "Cihat"
-    }
+  var name: String
+  
+  mutating func makeAnonymous() {
+    name = "Cihat"
+  }
 }
 
 var person = Person(name: "Ed")
@@ -278,3 +278,66 @@ toys.append("Buzz")
 toys.firstIndex(of: "Buzz")
 toys.sorted()
 toys.remove(at: 0)
+
+
+
+let numbers = [20, 19, 7, 12]
+
+let newNum = numbers.map({ number in 3 * number})
+
+let sortedNumbers = newNum.sorted { $0 < $1 }
+print(sortedNumbers)
+// Prints "[20, 19, 12, 7]"
+
+
+class Shape {
+  let numberOfSides = 0
+  func simpleDescription() -> String {
+    return "A shape with \(numberOfSides) sides."
+  }
+}
+
+let square = Shape()
+square.numberOfSides
+square.simpleDescription()
+
+
+class NamedShape {
+  var numberOfSides: Int = 0
+  var name: String
+  
+  init(name: String) {
+    self.name = name
+  }
+  
+  func simpleDescription() -> String {
+    return "A shape with \(numberOfSides) sides."
+  }
+}
+
+let namedShape = NamedShape(name: "Square")
+namedShape.simpleDescription()
+
+
+class Square: NamedShape {
+  var sideLength: Double
+  
+  init( sideLength: Double, name: String) {
+    self.sideLength = sideLength
+    super.init(name: name)
+    numberOfSides = 4
+  }
+  
+  func area() -> Double {
+    return sideLength * sideLength
+  }
+  
+  override func simpleDescription() -> String {
+    return "A square with sides of length \(sideLength)."
+  }
+}
+
+
+let test = Square(sideLength: 5.2, name: "my test square")
+test.area()
+test.simpleDescription()
