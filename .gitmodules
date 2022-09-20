@@ -1,3 +1,6 @@
 [submodule "HackingWithSwift"]
 	path = HackingWithSwift
 	url = git@github.com:twostraws/HackingWithSwift.git
+[submodule "Swift30Projects"]
+	path = Swift30Projects
+	url = git@github.com:devalooper/Swift-30-Projects.git
