@@ -13,3 +13,6 @@
 [submodule "forks/QuizApp"]
 	path = forks/QuizApp
 	url = git@github.com:damlacim/QuizApp.git
+[submodule "forks/QuizAppp"]
+	path = forks/QuizAppp
+	url = git@github.com:damlacim/QuizApp.git
