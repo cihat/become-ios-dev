@@ -8,11 +8,8 @@
 	path = HowToUseNetworkService
 	url = git@github.com:ferhanakkan/HowToUseNetworkService.git
 [submodule "LocalAPI"]
-	path = LocalAPI
+	path = forks/LocalAPI
 	url = git@github.com:ferhanakkan/LocalApi.git
 [submodule "forks/QuizApp"]
 	path = forks/QuizApp
-	url = git@github.com:damlacim/QuizApp.git
-[submodule "forks/QuizAppp"]
-	path = forks/QuizAppp
 	url = git@github.com:damlacim/QuizApp.git
