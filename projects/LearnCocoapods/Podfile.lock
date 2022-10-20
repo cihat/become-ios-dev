@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.6.2)
+  - FLEX (4.7.0)
+  - IQKeyboardManagerSwift (6.5.10)
+  - Kingfisher (7.4.0)
+  - SnapKit (5.0.1)
+  - SwiftGen (6.6.2)
+  - SwiftLint (0.49.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - FLEX
+  - IQKeyboardManagerSwift
+  - Kingfisher (~> 7.0)
+  - SnapKit (~> 5.0.0)
+  - SwiftGen
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FLEX
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - SnapKit
+    - SwiftGen
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  FLEX: bdc9ac7d4a239e3d04c298c01221203257d63a80
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  Kingfisher: 596b207973051aae5e4c54a1c1cb39837ea10d36
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
+  SwiftLint: 32ee33ded0636d0905ef6911b2b67bbaeeedafa5
+
+PODFILE CHECKSUM: 68d95ed157aa0523995fefed2a73d60068c1b713
+
+COCOAPODS: 1.11.3

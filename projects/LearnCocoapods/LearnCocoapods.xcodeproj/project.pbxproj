@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E3BD0D72901660B00ECCDAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3BD0D62901660B00ECCDAA /* AppDelegate.swift */; };
+		2E3BD0D92901660B00ECCDAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3BD0D82901660B00ECCDAA /* SceneDelegate.swift */; };
+		2E3BD0DB2901660B00ECCDAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3BD0DA2901660B00ECCDAA /* ViewController.swift */; };
+		2E3BD0DE2901660B00ECCDAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3BD0DC2901660B00ECCDAA /* Main.storyboard */; };
+		2E3BD0E02901660B00ECCDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3BD0DF2901660B00ECCDAA /* Assets.xcassets */; };
+		2E3BD0E32901660B00ECCDAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3BD0E12901660B00ECCDAA /* LaunchScreen.storyboard */; };
+		2E3BD0EC29019ED000ECCDAA /* swiftgen.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 2E3BD0EB29019ED000ECCDAA /* swiftgen.yaml */; };
+		2E3BD0EF2901A1B100ECCDAA /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2E3BD0EE2901A1B100ECCDAA /* .swiftlint.yml */; };
+		878A33211D71C3F230A4E5C6 /* Pods_LearnCocoapods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41343EAD587F86A74E07D85C /* Pods_LearnCocoapods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E3BD0D32901660B00ECCDAA /* LearnCocoapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnCocoapods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3BD0D62901660B00ECCDAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E3BD0D82901660B00ECCDAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E3BD0DA2901660B00ECCDAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E3BD0DD2901660B00ECCDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E3BD0DF2901660B00ECCDAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E3BD0E22901660B00ECCDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E3BD0E42901660B00ECCDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3BD0EB29019ED000ECCDAA /* swiftgen.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yaml; sourceTree = SOURCE_ROOT; };
+		2E3BD0EE2901A1B100ECCDAA /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		41343EAD587F86A74E07D85C /* Pods_LearnCocoapods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnCocoapods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D59B15AD33839CA97CAD27C /* Pods-LearnCocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnCocoapods.release.xcconfig"; path = "Target Support Files/Pods-LearnCocoapods/Pods-LearnCocoapods.release.xcconfig"; sourceTree = "<group>"; };
+		D1556BD6F7A0521545230D4B /* Pods-LearnCocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnCocoapods.debug.xcconfig"; path = "Target Support Files/Pods-LearnCocoapods/Pods-LearnCocoapods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3BD0D02901660B00ECCDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878A33211D71C3F230A4E5C6 /* Pods_LearnCocoapods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3BD0CA2901660B00ECCDAA = {
+			isa = PBXGroup;
+			children = (
+				2E3BD0D52901660B00ECCDAA /* LearnCocoapods */,
+				2E3BD0D42901660B00ECCDAA /* Products */,
+				F0E4C23A560466FE0620FCF4 /* Pods */,
+				3B7602D97B7BCDFF63B678BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3BD0D42901660B00ECCDAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3BD0D32901660B00ECCDAA /* LearnCocoapods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3BD0D52901660B00ECCDAA /* LearnCocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				2E3BD0EE2901A1B100ECCDAA /* .swiftlint.yml */,
+				2E3BD0EB29019ED000ECCDAA /* swiftgen.yaml */,
+				2E3BD0D62901660B00ECCDAA /* AppDelegate.swift */,
+				2E3BD0D82901660B00ECCDAA /* SceneDelegate.swift */,
+				2E3BD0DA2901660B00ECCDAA /* ViewController.swift */,
+				2E3BD0DC2901660B00ECCDAA /* Main.storyboard */,
+				2E3BD0DF2901660B00ECCDAA /* Assets.xcassets */,
+				2E3BD0E12901660B00ECCDAA /* LaunchScreen.storyboard */,
+				2E3BD0E42901660B00ECCDAA /* Info.plist */,
+			);
+			path = LearnCocoapods;
+			sourceTree = "<group>";
+		};
+		3B7602D97B7BCDFF63B678BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41343EAD587F86A74E07D85C /* Pods_LearnCocoapods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E4C23A560466FE0620FCF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1556BD6F7A0521545230D4B /* Pods-LearnCocoapods.debug.xcconfig */,
+				5D59B15AD33839CA97CAD27C /* Pods-LearnCocoapods.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E3BD0D22901660B00ECCDAA /* LearnCocoapods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3BD0E72901660B00ECCDAA /* Build configuration list for PBXNativeTarget "LearnCocoapods" */;
+			buildPhases = (
+				6E454DC869DEB4DD5B8C1C02 /* [CP] Check Pods Manifest.lock */,
+				2E3BD0CF2901660B00ECCDAA /* Sources */,
+				2E3BD0D02901660B00ECCDAA /* Frameworks */,
+				2E3BD0D12901660B00ECCDAA /* Resources */,
+				120ACB8F774F035BC4D2314B /* [CP] Embed Pods Frameworks */,
+				2E3BD0EA29019CF000ECCDAA /* SwiftGen */,
+				2E3BD0ED29019FD800ECCDAA /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnCocoapods;
+			productName = LearnCocoapods;
+			productReference = 2E3BD0D32901660B00ECCDAA /* LearnCocoapods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3BD0CB2901660B00ECCDAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2E3BD0D22901660B00ECCDAA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E3BD0CE2901660B00ECCDAA /* Build configuration list for PBXProject "LearnCocoapods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E3BD0CA2901660B00ECCDAA;
+			productRefGroup = 2E3BD0D42901660B00ECCDAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3BD0D22901660B00ECCDAA /* LearnCocoapods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3BD0D12901660B00ECCDAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3BD0EF2901A1B100ECCDAA /* .swiftlint.yml in Resources */,
+				2E3BD0E32901660B00ECCDAA /* LaunchScreen.storyboard in Resources */,
+				2E3BD0EC29019ED000ECCDAA /* swiftgen.yaml in Resources */,
+				2E3BD0E02901660B00ECCDAA /* Assets.xcassets in Resources */,
+				2E3BD0DE2901660B00ECCDAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		120ACB8F774F035BC4D2314B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnCocoapods/Pods-LearnCocoapods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnCocoapods/Pods-LearnCocoapods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnCocoapods/Pods-LearnCocoapods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E3BD0EA29019CF000ECCDAA /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\n  swiftgen\nelse\n  echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+		};
+		2E3BD0ED29019FD800ECCDAA /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		6E454DC869DEB4DD5B8C1C02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnCocoapods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3BD0CF2901660B00ECCDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3BD0DB2901660B00ECCDAA /* ViewController.swift in Sources */,
+				2E3BD0D72901660B00ECCDAA /* AppDelegate.swift in Sources */,
+				2E3BD0D92901660B00ECCDAA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E3BD0DC2901660B00ECCDAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3BD0DD2901660B00ECCDAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E3BD0E12901660B00ECCDAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3BD0E22901660B00ECCDAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E3BD0E52901660B00ECCDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E3BD0E62901660B00ECCDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E3BD0E82901660B00ECCDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1556BD6F7A0521545230D4B /* Pods-LearnCocoapods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CMH45TP325;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearnCocoapods/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cihat.salik.LearnCocoapods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E3BD0E92901660B00ECCDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D59B15AD33839CA97CAD27C /* Pods-LearnCocoapods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CMH45TP325;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearnCocoapods/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cihat.salik.LearnCocoapods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3BD0CE2901660B00ECCDAA /* Build configuration list for PBXProject "LearnCocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3BD0E52901660B00ECCDAA /* Debug */,
+				2E3BD0E62901660B00ECCDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3BD0E72901660B00ECCDAA /* Build configuration list for PBXNativeTarget "LearnCocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3BD0E82901660B00ECCDAA /* Debug */,
+				2E3BD0E92901660B00ECCDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3BD0CB2901660B00ECCDAA /* Project object */;
+}
