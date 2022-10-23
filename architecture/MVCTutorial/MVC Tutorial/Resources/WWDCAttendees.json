@@ -1,0 +1,30 @@
+[
+  {
+    "age" : 31,
+    "badgeNumber" : 23,
+    "isFirstTimeAttending" : true,
+    "name" : "Felipe Laso-Marsetti",
+    "nationality" : "Ecuador",
+  },
+  {
+    "age" : 35,
+    "badgeNumber" : 12,
+    "isFirstTimeAttending" : false,
+    "name" : "Ray Wenderlich",
+    "nationality" : "USA",
+  },
+  {
+    "age" : 37,
+    "badgeNumber" : 45,
+    "isFirstTimeAttending" : false,
+    "name" : "Cesare Rocchi",
+    "nationality" : "Italy",
+  },
+  {
+    "age" : 34,
+    "badgeNumber" : 76,
+    "isFirstTimeAttending" : true,
+    "name" : "Marin Todorov",
+    "nationality" : "Europe",
+  }
+]

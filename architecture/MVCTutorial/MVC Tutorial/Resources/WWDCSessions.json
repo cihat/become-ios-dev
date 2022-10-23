@@ -1,0 +1,30 @@
+[
+  {
+    "attendeesBadges" : [12, 23, 45, 76],
+    "date" : "2019-07-22",
+    "details" : "We'll go over, in detail, what's new in iOS, macOS, watchOS, tvOS, and Xcode.",
+    "sessionNumber": 101,
+    "title" : "Platforms State Of The Union",
+  },
+  {
+    "attendeesBadges" : [12, 23],
+    "date" : "2019-07-23",
+    "details" : "Learn about our new APIs and technologies in iOS 13.",
+    "sessionNumber": 202,
+    "title" : "What's New In iOS",
+  },
+  {
+    "attendeesBadges" : [23, 45, 76],
+    "date" : "2019-07-24",
+    "details" : "Join us for another year of UIScrollView magic, tips, and tricks.",
+    "sessionNumber": 303,
+    "title" : "Scroll View School",
+  },
+  {
+    "attendeesBadges" : [23],
+    "date" : "2019-07-25",
+    "details" : "Another year, another WWDC. We'll miss you, but come and hang out with friends and celebrate the end of WWDC 2019.",
+    "sessionNumber": 401,
+    "title" : "Wrap-Up Party Session",
+  },
+]

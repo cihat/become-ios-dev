@@ -1,0 +1,27 @@
+/* No comment provided by engineer. */
+"CONVERSION_DEGREES_CELCIUS" = "degrees Celsius";
+
+/* No comment provided by engineer. */
+"CONVERSION_FAHRENHEIT" = "fahrenheit";
+
+/* No comment provided by engineer. */
+"CONVERSION_IS_ACTUALLY" = "is actually";
+
+/* No comment provided by engineer. */
+"CONVERSION_TEXT_FIELD_PLACEHOLDER" = "value";
+
+/* No comment provided by engineer. */
+"MAP_CITY_ISTANBUL" = "Istanbul";
+
+/* No comment provided by engineer. */
+"MAP_CITY_LONDON" = "London";
+
+/* Localizable.strings
+  TemperatureConverter
+
+  Created by Cihat Salik on 23.10.2022. */
+"TAB_CONVERSION" = "Conversion";
+
+/* (No Comment) */
+"TAB_MAP" = "Map";
+
