@@ -1,10 +1,8 @@
 # I am learning SwiftUI
 
-## I will share my Swift learning adventure with this repo. The projects I will do, the subjects I research, their structures.
+## I will share my Swift learning adventure with this repo. The projects I will do, the subjects I research, their structures
 
-
-
-![](./assets/swift.png)
+![Swift Logo](./assets/swift.png)
 
 ### Todos
 
@@ -21,16 +19,3 @@
 - [ ] I will develop many iPad apps with Swift.
 - [ ]  I will develop many Mac applications with Swift.
 - [ ]  I will work on Design Patterns (MVVM, Cocoa)
-
-[TR]
-- [ ] 100 gunluk olan `Hacking With Swift` programi ile basladim.(Temel Swift syntax'ina ve UIKit'e hakim olmak icin)
-- [ ] UIKit'eki componentlere hakim olacagim.
-- [ ] IKit ile projeler yapacagim
-- [ ] 100 gunluk olan `Hacking With SwiftUI` ile SwiftUI ile devam edecegim.
-- [ ] SwiftUI ile essiz responsive tasarimlarla projeler yapacagim.
-- [ ] Github'ta bulunan Swift30Projects reposundaki projeleri kendim yapacagim.
-- [ ] Swift ile Server Side projeleri gelistirecegim. 
-- [ ] Swift ile bircok IPhone,  uygulamasi gelistirecegim.
-- [ ] Swift ile bircok iPad uygulamasi gelistirecegim.
-- [ ]  Swift ile bircok Mac uygulamasi gelistirecegim.
-- [ ]  Design Pattern'lere calisacagim(MVVM, Cocoa)
