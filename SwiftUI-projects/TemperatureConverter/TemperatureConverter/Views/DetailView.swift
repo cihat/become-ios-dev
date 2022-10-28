@@ -18,6 +18,9 @@ struct DetailView: View {
   @State var price: Double = 0.0
   @State var shouldEnableSaveButton: Bool = true
   
+  @State var isPhotoPickerPresenting: Bool = false
+  
+  @State var selectedPhoto: UIImage?
   
   func validate() {
     shouldEnableSaveButton = game.name != name || game.priceInDollars != price
@@ -70,14 +73,17 @@ struct DetailView: View {
     }
     .toolbar {
       ToolbarItem(placement: .bottomBar) {
-        Button {
-          
-        } label: {
+        Button(action: {
+          isPhotoPickerPresenting = true
+        }, label: {
           Image(systemName: "camera")
-        }
+        })
       }
     }
     .navigationBarTitleDisplayMode(.inline)
+    .sheet(isPresented: $isPhotoPickerPresenting) {
+      PhotoPicker(selectedPhoto: $selectedPhoto)
+    }
   }
 }
 
