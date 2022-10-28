@@ -7,3 +7,6 @@
 [submodule "LocalAPI"]
 	path = forks/LocalAPI
 	url = git@github.com:ferhanakkan/LocalApi.git
+[submodule "forks/CwlFeedReader"]
+	path = CwlFeedReader
+	url = git@github.com:mattgallagher/CwlFeedReader.git
