@@ -4,15 +4,6 @@
 [submodule "Swift30Projects"]
 	path = Swift30Projects
 	url = git@github.com:devalooper/Swift-30-Projects.git
-[submodule "HowToUseNetworkService"]
-	path = HowToUseNetworkService
-	url = git@github.com:ferhanakkan/HowToUseNetworkService.git
 [submodule "LocalAPI"]
 	path = forks/LocalAPI
 	url = git@github.com:ferhanakkan/LocalApi.git
-[submodule "forks/QuizApp"]
-	path = forks/QuizApp
-	url = git@github.com:damlacim/QuizApp.git
-[submodule "projects/FlicrClientFork"]
-	path = projects/FlicrClientFork
-	url = git@github.com:Burakacik/Flickr-Client-App.git

@@ -8,40 +8,68 @@
 import SwiftUI
 
 struct GameListView: View {
-  let gameStore = GameStore()
+  @ObservedObject var gameInstance = GameController()
+  
+  @State var gameToDelete: GameListModel?
   
   var body: some View {
-    List(gameStore.games) { (game) in
-      GameListItem(game: game, numberFormatter: Formatters.dollarFormatter )
+    NavigationView {
+      List {
+        ForEach(gameInstance.games) { (game) in
+          NavigationLink(
+            destination:
+              DetailView(
+                game: game,
+                gameController: gameInstance,
+                name: game.name,
+                price: game.priceInDollars
+              )
+          ) {
+            GameListItem(game: game)
+          }
+        }
+        .onDelete { indexSet in
+          self.gameToDelete = gameInstance.game(at: indexSet)
+        }
+        .onMove { indices, newOffset in
+          gameInstance.move(indices: indices, to: newOffset)
+        }
+      }
+      .listStyle(PlainListStyle())
+      .navigationTitle("Used Games")
+      .navigationBarItems(
+        leading: EditButton(),
+        trailing: Button(action: {
+          gameInstance.createGame()
+        }, label: {
+          Text("Add")
+        }))
+      .navigationBarTitleDisplayMode(.large)
+      //      .animation(.easeIn)
+      .actionSheet(
+        item: $gameToDelete) { (game) -> ActionSheet in
+          
+          
+          ActionSheet(
+            title: Text("Are you sure ?"),
+            message: Text("You will delete \(game.name)"),
+            buttons: [
+              .cancel(),
+              .destructive(Text("Delete"), action: {
+                if let indexSet = gameInstance.indexSet(for: game) {
+                  gameInstance.delete(at: indexSet)
+                }
+              })
+            ]
+          )
+        }
     }
+    .accentColor(.purple)
   }
 }
 
 struct GameListView_Previews: PreviewProvider {
   static var previews: some View {
     GameListView()
-  }
-}
-
-struct GameListItem: View {
-  
-  var game: GameListModel
-  var numberFormatter = NumberFormatter()
-  
-  var body: some View {
-    HStack {
-      VStack(alignment: .leading, spacing: 4.0) {
-        Text(game.name)
-          .font(.body)
-        Text(game.serialNumber)
-          .font(.caption)
-          .foregroundColor(Color(white: 0.65))
-      }
-      Spacer()
-      Text(NSNumber(value: game.priceInDollars), formatter: numberFormatter)
-        .font(.title2)
-        .foregroundColor(game.priceInDollars > 30 ? .blue : .gray)
-    }
-    .padding(.vertical, 6)
   }
 }

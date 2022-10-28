@@ -18,6 +18,11 @@
 		2E57835D29058339001EC7AE /* GameStoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E57835C29058339001EC7AE /* GameStoreController.swift */; };
 		2E57836029058546001EC7AE /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E57835F29058546001EC7AE /* GameListView.swift */; };
 		2E5783632905A53A001EC7AE /* GameList+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5783622905A53A001EC7AE /* GameList+Formatter.swift */; };
+		2E5783652906CA2D001EC7AE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5783642906CA2D001EC7AE /* Colors.xcassets */; };
+		2E5783672906CBB4001EC7AE /* Color+Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5783662906CBB4001EC7AE /* Color+Games.swift */; };
+		2E57836A2906D01F001EC7AE /* GameListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5783692906D01F001EC7AE /* GameListItem.swift */; };
+		2E57836C29073211001EC7AE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E57836B29073211001EC7AE /* DetailView.swift */; };
+		2E57836E2907445E001EC7AE /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E57836D2907445E001EC7AE /* PhotoPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +40,11 @@
 		2E57835C29058339001EC7AE /* GameStoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStoreController.swift; sourceTree = "<group>"; };
 		2E57835F29058546001EC7AE /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
 		2E5783622905A53A001EC7AE /* GameList+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameList+Formatter.swift"; sourceTree = "<group>"; };
+		2E5783642906CA2D001EC7AE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2E5783662906CBB4001EC7AE /* Color+Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Games.swift"; sourceTree = "<group>"; };
+		2E5783692906D01F001EC7AE /* GameListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListItem.swift; sourceTree = "<group>"; };
+		2E57836B29073211001EC7AE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2E57836D2907445E001EC7AE /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +61,6 @@
 		2E5783282904135D001EC7AE = {
 			isa = PBXGroup;
 			children = (
-				2E5783502904C3E9001EC7AE /* InfoPlist.strings */,
 				2E5783332904135D001EC7AE /* TemperatureConverter */,
 				2E5783322904135D001EC7AE /* Products */,
 			);
@@ -68,11 +77,14 @@
 		2E5783332904135D001EC7AE /* TemperatureConverter */ = {
 			isa = PBXGroup;
 			children = (
+				2E5783682906D016001EC7AE /* Components */,
 				2E5783612905A528001EC7AE /* Utilities */,
 				2E57835729057C66001EC7AE /* Controllers */,
 				2E57835629057C5F001EC7AE /* Models */,
 				2E57835429057C59001EC7AE /* Views */,
+				2E5783642906CA2D001EC7AE /* Colors.xcassets */,
 				2E5783382904135D001EC7AE /* Assets.xcassets */,
+				2E5783502904C3E9001EC7AE /* InfoPlist.strings */,
 				2E57833A2904135D001EC7AE /* Preview Content */,
 				2E57834A2904BD56001EC7AE /* Localizable.strings */,
 			);
@@ -94,6 +106,7 @@
 				2E5783342904135D001EC7AE /* TemperatureConverterApp.swift */,
 				2E5783362904135D001EC7AE /* ContentView.swift */,
 				2E57834429042482001EC7AE /* MapView.swift */,
+				2E57836B29073211001EC7AE /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,9 +130,19 @@
 		2E5783612905A528001EC7AE /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				2E5783662906CBB4001EC7AE /* Color+Games.swift */,
 				2E5783622905A53A001EC7AE /* GameList+Formatter.swift */,
+				2E57836D2907445E001EC7AE /* PhotoPicker.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2E5783682906D016001EC7AE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2E5783692906D01F001EC7AE /* GameListItem.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E5783652906CA2D001EC7AE /* Colors.xcassets in Resources */,
 				2E57833C2904135D001EC7AE /* Preview Assets.xcassets in Resources */,
 				2E57834E2904C3E9001EC7AE /* InfoPlist.strings in Resources */,
 				2E5783482904BD56001EC7AE /* Localizable.strings in Resources */,
@@ -196,10 +220,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E5783632905A53A001EC7AE /* GameList+Formatter.swift in Sources */,
+				2E57836E2907445E001EC7AE /* PhotoPicker.swift in Sources */,
 				2E5783372904135D001EC7AE /* ContentView.swift in Sources */,
 				2E57835A29057D86001EC7AE /* GameListModel.swift in Sources */,
+				2E57836C29073211001EC7AE /* DetailView.swift in Sources */,
+				2E5783672906CBB4001EC7AE /* Color+Games.swift in Sources */,
 				2E57836029058546001EC7AE /* GameListView.swift in Sources */,
 				2E57835D29058339001EC7AE /* GameStoreController.swift in Sources */,
+				2E57836A2906D01F001EC7AE /* GameListItem.swift in Sources */,
 				2E5783352904135D001EC7AE /* TemperatureConverterApp.swift in Sources */,
 				2E57834529042482001EC7AE /* MapView.swift in Sources */,
 			);

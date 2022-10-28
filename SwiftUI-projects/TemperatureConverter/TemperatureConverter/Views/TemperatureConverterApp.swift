@@ -12,6 +12,13 @@ struct TemperatureConverterApp: App {
   var body: some Scene {
     WindowGroup {
       TabView {
+        GameListView()
+          .tabItem {
+            HStack {
+              Image(systemName: "gamecontroller")
+              Text("Game List")
+            }
+          }
         ContentView()
           .tabItem {
             HStack {
@@ -24,13 +31,6 @@ struct TemperatureConverterApp: App {
             HStack {
               Image(systemName: "map")
               Text("TAB_MAP")
-            }
-          }
-        GameListView()
-          .tabItem {
-            HStack {
-              Image(systemName: "gamecontroller")
-              Text("Game List")
             }
           }
       }
