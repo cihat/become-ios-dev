@@ -8,5 +8,20 @@
 	path = forks/LocalAPI
 	url = git@github.com:ferhanakkan/LocalApi.git
 [submodule "forks/CwlFeedReader"]
-	path = CwlFeedReader
+	path = forks/CwlFeedReaders
 	url = git@github.com:mattgallagher/CwlFeedReader.git
+[submodule "forks/WeatherApp"]
+	path = forks/WeatherApp
+	url = git@github.com:stephdiep/WeatherApp.git
+[submodule "forks/urklc-wordle"]
+	path = forks/urklc-wordle
+	url = git@github.com:urklc/Wordle.git
+[submodule "forks/Dimillian-MovieSwiftUI"]
+	path = forks/Dimillian-MovieSwiftUI
+	url = git@github.com:Dimillian/MovieSwiftUI.git
+[submodule "forks/Dimillian-RedditOS"]
+	path = forks/Dimillian-RedditOS
+	url = git@github.com:Dimillian/RedditOS.git
+[submodule "forks/bank"]
+	path = forks/bank
+	url = git@github.com:asilarslan/Bank.git
